@@ -1,10 +1,11 @@
 {
   "name": "dllll",
   "description": "Remove first appeared doller.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "yushimatenjin",
+  "preferGlobal": true,
   "bin": {
-    "$": "build/bin/index.js"
+    "$": "./built/index.js"
   },
   "bugs": "https://github.com/yushimatenjin/dllll/issues",
   "dependencies": {
@@ -22,11 +23,11 @@
     "node"
   ],
   "license": "MIT",
-  "main": "built/bin/index.js",
+  "main": "./built/index.js",
   "repository": "https://github.com/yushimatenjin/dllll",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "yarn build",
-    "start": "tsc && node built/bin/index.js"
+    "prepublishOnly": "npm run build",
+    "start": "tsc && node built/index.js"
   }
 }
