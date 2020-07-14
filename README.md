@@ -6,11 +6,14 @@
 
 ```bash
 $ ls
+zsh: command not found: $
 ```
 
 ```
 npm -g install dlll
 $ ls
+README.md               node_modules            package.json            tsconfig.json
+built                   package-lock.json       src
 ```
 ### インストール
 
