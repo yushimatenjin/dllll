@@ -1,7 +1,7 @@
 {
   "name": "dllll",
   "description": "Remove first appeared doller.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "yushimatenjin",
   "preferGlobal": true,
   "bin": {
